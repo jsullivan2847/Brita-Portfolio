@@ -1,8 +1,9 @@
 body{
-    background-image: url("/public/images/Egg.jpg");
+    /* background-image: url("/public/images/Egg.jpg"); */
     background-repeat: repeat-y;
     background-size: cover;
 }
 .page{
-    display: flex;
+    width: 100vw;
+    height: 100vh;
 }

@@ -5,10 +5,18 @@ import './home.css'
 
 export default function Home() {
     const color = '#8E7966'
+    const textColor ='#DABC00'
+    const image = "/images/Egg.jpg"
+    const headerImg = {
+    backgroundImage: 'url(' + image + ')',
+    backgroundRepeat: 'repeat-y',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
+    }
   return (
-    <div className='page'>
+    <div style={headerImg} className='page'>
         <Hamburger color={color}/>
-        <Header color={color} text="Brita Van Tol"/>
+        <Header color={color} textColor={textColor} text="Brita Van Tol"/>
     </div>
   )
 }
