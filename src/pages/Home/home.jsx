@@ -4,9 +4,8 @@ import './home.css'
 
 export default function Home() {
   return (
-    <div>
+    <div className='page'>
         <Header text="Brita Van Tol"/>
-        {/* <img className='egg' src="images/Egg.jpg" alt="" /> */}
     </div>
   )
 }

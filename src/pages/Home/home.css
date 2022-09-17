@@ -3,3 +3,6 @@ body{
     background-repeat: repeat-y;
     background-size: cover;
 }
+.page{
+    display: flex;
+}
