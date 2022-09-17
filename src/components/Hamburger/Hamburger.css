@@ -1,8 +1,9 @@
 .Container{
     position: absolute;
-    margin: 10px;
+    margin: 10px 0 0 5px;
     z-index: 10;
 }
 .hamburger{
-    width: 60px;
+
+    width: 70px;
 }

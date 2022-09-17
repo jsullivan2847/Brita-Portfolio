@@ -4,7 +4,7 @@
     height: 447px ;
 }
 .text{
-    margin: 70px;
+    margin: 70px 0 0 10px;
     display: flex;
     justify-content: center;
     align-items: center;
