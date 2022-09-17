@@ -12,6 +12,12 @@ function App() {
       <Route path='/Corsets'>
         <Corsets/>
       </Route>
+      <Route path='/Professional'>
+        <Corsets/>
+      </Route>
+      <Route path='/Projects'>
+        <Corsets/>
+      </Route>
     </div>
   );
 }
