@@ -4,7 +4,7 @@ import './DropDown.css'
 export default function Close({color}) {
   return (
     <svg
-          className="close"
+          className="close special "
           viewBox="0 0 128 123"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

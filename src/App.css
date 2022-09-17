@@ -1,0 +1,9 @@
+.special:hover{
+    transform: scale(1.02);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px 10px rgba(255, 255, 255, 0.2);
+}
+.special{
+    transition: all;
+    transition-duration: 50ms;
+}

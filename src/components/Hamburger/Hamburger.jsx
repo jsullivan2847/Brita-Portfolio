@@ -12,7 +12,7 @@ export default function Hamburger({ color }) {
   }
 
   return (
-    <div className="Container" onClick={handleClick}>
+    <div className="container special" onClick={handleClick}>
       {active ? (
         <DropDown color={color} />
       ) : (
