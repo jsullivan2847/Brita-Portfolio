@@ -4,6 +4,14 @@
     box-shadow: 0 0 5px 10px rgba(255, 255, 255, 0.2);
 }
 .special{
+    cursor: pointer;
     transition: all;
     transition-duration: 50ms;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color:unset;
 }

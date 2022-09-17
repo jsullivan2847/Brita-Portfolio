@@ -12,12 +12,13 @@ export default function Hamburger({ color }) {
   }
 
   return (
-    <div className="container special" onClick={handleClick}>
+    <div className="container">
       {active ? (
-        <DropDown color={color} />
+        <DropDown handleClick={handleClick} color={color} />
       ) : (
         <svg
-          className="hamburger"
+          onClick={handleClick}
+          className="hamburger special"
           viewBox="0 0 166 102"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

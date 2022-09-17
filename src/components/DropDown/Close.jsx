@@ -1,9 +1,10 @@
 import React from 'react'
 import './DropDown.css'
 
-export default function Close({color}) {
+export default function Close({color, handleClick}) {
   return (
     <svg
+          onClick={handleClick}
           className="close special "
           viewBox="0 0 128 123"
           fill="none"

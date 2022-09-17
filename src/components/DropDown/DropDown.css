@@ -1,4 +1,33 @@
 .close{
     margin: 10px;
-    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+}
+.drop-down{
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    overflow:visible;
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(242, 239, 181);
+}
+.links{
+    margin-left: 20%;
+    max-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-link{
+    height: 5px;
+}
+@media screen and (min-width: 796px) {
+    .links{
+        width: 100%;
+        margin-right: 20%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self:center;
+    }
 }
