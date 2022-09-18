@@ -1,9 +1,36 @@
-body{
-    /* background-image: url("/public/images/Egg.jpg"); */
-    background-repeat: repeat-y;
-    background-size: cover;
-}
 .page{
     width: 100vw;
     height: 100vh;
+}
+.about{
+
+    transition: all 300ms;
+    color: white;
+    position:absolute;
+    top: 30%;
+    align-items: center;
+    margin-left: 120px;
+    max-width: 250px;
+    font-size: larger;
+}
+
+@media screen and (max-width: 796px) {
+    .about{
+        margin-top: 60px;
+        margin-left: 10px;
+        top: 15%;
+        font-size: medium;
+        max-width: 200px;
+    }
+    .page{
+        max-height: 796px;
+    }
+
+}
+@media screen and (max-height:500px) {
+
+    .about{
+        margin-top: 90px;
+    }
+    
 }

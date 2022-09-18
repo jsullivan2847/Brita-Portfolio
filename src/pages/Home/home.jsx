@@ -17,6 +17,9 @@ export default function Home() {
     <div style={headerImg} className='page'>
         <Hamburger color={color}/>
         <Header color={color} textColor={textColor} text="Brita Van Tol"/>
+        <p className='about'>
+        Seamstress and designer with experience in fine alterations
+        </p>
     </div>
   )
 }

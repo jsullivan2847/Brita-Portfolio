@@ -16,5 +16,8 @@ a:visited{
     color:unset;
 }
 body{
-    font-family: poppins@200;
+    width: 100vw;
+    overscroll-behavior-y: contain ;
+    /* font-family: poppins@200; */
+    overflow: hidden;
 }
