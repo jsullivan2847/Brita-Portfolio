@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import Home from './pages/Home/home';
 import Corsets from './pages/Corsets/corsets';
 import Projects from './pages/Projects/projects';
-
+import Professional from './pages/Professional/professional';
 function App() {
   return (
     <div className="App">
@@ -14,7 +14,7 @@ function App() {
         <Corsets/>
       </Route>
       <Route path='/Professional'>
-        <Corsets/>
+        <Professional/>
       </Route>
       <Route path='/Projects'>
         <Projects/>
