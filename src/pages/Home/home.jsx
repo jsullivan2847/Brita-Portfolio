@@ -4,8 +4,8 @@ import Header from '../../components/Header/Header'
 import './home.css'
 
 export default function Home() {
-    const color = '#2c2c2c'
-    const textColor ='#DABC00'
+    const color = '#DABC00'
+    const textColor ='#FFFFFF'
     const image = "/images/Egg.jpg"
     const headerImg = {
     backgroundImage: 'url(' + image + ')',

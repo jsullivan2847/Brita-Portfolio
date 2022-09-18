@@ -7,12 +7,12 @@ import './projects.css'
 
 export default function Projects() {
     const textColor = "#F7F7EC"
-    const color = "#A2465C"
-    const image = "/images/Projects.jpg"
+    const color = "#C7696A"
+    const image = "/images/Projectss.jpeg"
   return (
     <div>
          <div className='Projects'>
-      <Hamburger color={textColor}/>
+      <Hamburger color={color}/>
       <Header image={image}color={color} textColor={textColor} text="Projects"/>
     </div>
     </div>
