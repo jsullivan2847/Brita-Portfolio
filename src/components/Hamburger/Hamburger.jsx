@@ -23,15 +23,15 @@ export default function Hamburger({ color }) {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g clip-path="url(#clip0_2_19)">
+          <g clipPath="url(#clip0_2_19)">
             <line
               x1="5"
               y1="5"
               x2="161"
               y2="5"
               stroke={color}
-              stroke-width="20"
-              stroke-linecap="round"
+              strokeWidth="20"
+              strokeLinecap="round"
             />
             <line
               x1="5"
@@ -39,8 +39,8 @@ export default function Hamburger({ color }) {
               x2="161"
               y2="51"
               stroke={color}
-              stroke-width="15"
-              stroke-linecap="round"
+              strokeWidth="15"
+              strokeLinecap="round"
             />
             <line
               x1="5"
@@ -48,8 +48,8 @@ export default function Hamburger({ color }) {
               x2="161"
               y2="97"
               stroke={color}
-              stroke-width="20"
-              stroke-linecap="round"
+              strokeWidth="20"
+              strokeLinecap="round"
             />
           </g>
           <defs>

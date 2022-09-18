@@ -5,7 +5,7 @@ import Header from '../../components/Header/Header'
 export default function Professional() {
     const textColor = "#FFFFFF"
     const color = "#B0B0A1"
-    const image = "/images/ProfExp.png"
+    const image = "/images/Headers/ProfExp.png"
   return (
     <div>
     <div className='Projects'>

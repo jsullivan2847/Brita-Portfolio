@@ -1,4 +1,5 @@
 import React from 'react'
+import Content from '../../components/Content/Content'
 import Hamburger from '../../components/Hamburger/Hamburger'
 import Header from '../../components/Header/Header'
 import './home.css'
@@ -6,7 +7,7 @@ import './home.css'
 export default function Home() {
     const color = '#DABC00'
     const textColor ='#FFFFFF'
-    const image = "/images/Egg.jpg"
+    const image = "/images/Headers/Egg.jpg"
     const headerImg = {
     backgroundImage: 'url(' + image + ')',
     backgroundRepeat: 'repeat-y',

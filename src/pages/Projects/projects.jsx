@@ -8,7 +8,7 @@ import './projects.css'
 export default function Projects() {
     const textColor = "#F7F7EC"
     const color = "#C7696A"
-    const image = "/images/Projectss.jpeg"
+    const image = "/images/Headers/Projectss.jpeg"
   return (
     <div>
          <div className='Projects'>
