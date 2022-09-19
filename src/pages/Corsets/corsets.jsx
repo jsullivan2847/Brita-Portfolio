@@ -10,14 +10,19 @@ export default function Corsets() {
   const textColor = "#A7A698"
   const image = "/images/Headers/CorsetHeader.jpg"
   return (
-    <div className='corset'>
+    <div className='page'>
       <Hamburger color={color}/>
       <Header image={image}color={color} textColor={textColor} text="Corsets"/>
-      <div>hello?</div>
-      <Picture/>
-
       <Content>
-        <Picture/>
+        <Picture url="/images/Corsets/Silver1.jpg"/>
+        <Picture url="/images/Corsets/Silver2.jpg"/>
+        <Picture url="/images/Corsets/Red1.jpg"/>
+        <Picture url="/images/Corsets/Red2.jpg"/>
+        <Picture url="/images/Corsets/Green1.png"/>
+        <Picture url="/images/Corsets/Green2.png"/>
+        <Picture url="/images/Corsets/Camo.png"/>
+        <Picture url="/images/Corsets/White1.png"/>
+        <Picture url="/images/Corsets/White2.png"/>
       </Content>
     </div>
   )

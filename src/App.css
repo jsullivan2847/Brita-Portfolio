@@ -21,3 +21,10 @@ body{
     /* font-family: poppins@200; */
     overflow: hidden;
 }
+.page{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    scroll-behavior:smooth;
+    overflow-y: scroll;
+}

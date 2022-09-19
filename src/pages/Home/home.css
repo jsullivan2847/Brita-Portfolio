@@ -3,15 +3,17 @@
     height: 100vh;
 }
 .about{
-
+    padding:10px  10px 0;
+    text-align: left;
     transition: all 300ms;
     color: white;
     position:absolute;
     top: 30%;
     align-items: center;
     margin-left: 120px;
-    max-width: 250px;
+    max-width: 220px;
     font-size: larger;
+    font-family: poppins@600;
 }
 
 @media screen and (max-width: 796px) {

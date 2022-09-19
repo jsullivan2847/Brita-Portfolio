@@ -6,8 +6,8 @@ export default function Header({text, textColor, color, image}) {
   const headerImg = {
     backgroundImage: 'url(' + image + ')',
     backgroundRepeat: 'repeat-y',
-    backgroundSize: 'cover',
-    backgroundPosition: 'center'
+    backgroundPosition: 'center',
+    backgroundSize: 'cover'
   }
   return (
     <div style={headerImg}className='header'>
