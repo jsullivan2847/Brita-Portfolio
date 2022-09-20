@@ -7,11 +7,9 @@ export default function Professional() {
     const color = "#B0B0A1"
     const image = "/images/Headers/ProfExp.png"
   return (
-    <div>
-    <div className='Projects'>
- <Hamburger color={color}/>
- <Header image={image}color={color} textColor={textColor} text="Projects"/>
-</div>
-</div>
+    <div className='page'>
+      <Hamburger color={color}/>
+      <Header image={image}color={color} textColor={textColor} text="Projects"/>
+    </div>
   )
 }
