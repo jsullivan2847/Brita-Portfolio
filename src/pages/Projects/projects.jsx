@@ -46,6 +46,15 @@ export default function Projects() {
         <Picture url="/images/Projects/WhiteCoat2.png"/>
         <Picture url="/images/Projects/WhiteShirt.png"/>
         <Picture url="/images/Projects/WhiteTank.jpg"/>
+        <Picture url="/images/Projects/WhiteShirt.png"/>
+        <Picture url="/images/Projects/WhiteSkirt1.png"/>
+        <Picture url="/images/Projects/WhiteSkirt2.png"/>
+        <Picture url="/images/Projects/WhiteDress.png"/>
+        <Picture url="/images/Projects/WhiteDress2.png"/>
+        <Picture url="/images/Projects/BlackPants.png"/>
+        <Picture url="/images/Projects/BlackPants2.png"/>
+        <Picture url="/images/Projects/WhitePants1.png"/>
+        <Picture url="/images/Projects/WhitePants2.png"/>
       </Content>
     </div>
   )
