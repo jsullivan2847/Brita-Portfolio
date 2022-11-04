@@ -20,6 +20,10 @@ export default function Corsets() {
         <Picture url="/images/Corsets/Red2.jpg"/>
         <Picture url="/images/Corsets/Green1.png"/>
         <Picture url="/images/Corsets/Green2.png"/>
+        <Picture url="/images/Corsets/new1.png"/>
+        <Picture url="/images/Corsets/new2.png"/>
+        <Picture url="/images/Corsets/new3.png"/>
+        <Picture url="/images/Corsets/new4.png"/>
         <Picture url="/images/Corsets/Camo.png"/>
         <Picture url="/images/Corsets/White1.png"/>
         <Picture url="/images/Corsets/White2.png"/>
